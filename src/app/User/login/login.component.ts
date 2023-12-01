@@ -45,5 +45,5 @@ export class LoginComponent {
   isFormValid(): boolean {
     return this.loginModel.username.trim() !== '' && this.loginModel.password.trim() !== '';
   }
-  // Other methods...
+  
 }
